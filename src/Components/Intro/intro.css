@@ -1,6 +1,6 @@
 #intro{
     /* Total viewport height - height of navbar */
-    height: calc(100vh - 5rem); 
+    height: calc(100vh-5rem);
     width: 100vw;
     max-width: 85rem;
     /* max-width: 75rem; */
@@ -8,16 +8,14 @@
     overflow: hidden;
     position: relative;
 }
-
-.bg{
-    height: 100vh;
+.My_img{
     position:absolute;
     top: 0rem;
     /* top: -4rem; */
-    right:0rem;
+    right:0;
     z-index: -1; 
-    object-fit: cover;
-    
+    object-fit:cover;
+    height: 100vh;
 } 
 .introContent{
     height: 100vh;
@@ -49,22 +47,29 @@ border: none;
 border-radius: 2rem;
 cursor: pointer;
 }
-.btn img{
+.btn_img{
     object-fit: cover;
     margin: 0 0.25rem;
     height: 1.1rem;
 }
 
 @media screen and (max-width:840px) {
-    .bg{
+    .My_img{
         right: -10vw;
+        height: 100vh;
     }
     .introContent{
         font-size: 10vw;
     }
-    /* .hello{
-
-    } */
+    .hello{
+font-size: 4.5vw;
+    }
+}
+@media screen and (max-width:554px) {
+    .My_img{
+        right: -20vw;
+        height: 100vh;
+    }
 }
 
 
