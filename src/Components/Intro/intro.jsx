@@ -4,9 +4,9 @@ import My_img from '../../assets/My_pic.png'
 import {Link} from 'react-scroll'
 import hire_img from '../../assets/hireme.png'
 
-const Intro = () => {
+const intro = () => {
   return (
-    <section id="intro">
+    <div id="intro"> 
         <div className="introContent">
 <span className='hello'>Hello,</span>
 <span className="introText">I'm <span className="introName">Riya</span><br/>Website Developer</span>
@@ -15,9 +15,9 @@ const Intro = () => {
     <Link><button className='btn'><img src={hire_img} alt='Hire me' className='btn_img'/>Hire me</button></Link>
         </div>
         <img src={My_img} alt='Profile' className='My_img'/>
-     </section>
+     </div>
      
   );
 }
 
-export default Intro
+export default intro

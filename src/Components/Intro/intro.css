@@ -65,11 +65,8 @@ cursor: pointer;
 font-size: 4.5vw;
     }
 }
-@media screen and (max-width:554px) {
+@media screen and (max-width:480px) {
     .My_img{
         right: -20vw;
-        height: 100vh;
     }
 }
-
-
