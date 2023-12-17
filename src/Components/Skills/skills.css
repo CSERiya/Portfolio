@@ -40,8 +40,8 @@ text-align: left;
 .skillBarImg{
     object-fit: cover;
     height: 100px;
-    width: 15%;
-    margin: 2rem;
+    width: 10%;
+    margin: 1rem;
 }
 .skillBarText p{
 font-size: 0.85rem;
@@ -49,5 +49,24 @@ font-weight: 200;
 justify-content: center;
 text-size-adjust:auto;
 max-width: 100%;
+}
+
+@media screen and (max-width:720px) {
+    .skillBarText>p{
+        font-size: 2vw;
+    }
+}
+@media screen and (max-width:480px) {
+    .skillBarText>p{
+        font-size: 3vw;
+    }
+    .skillBarImg{
+        height: 2.5rem;
+        width: 2.5rem;
+        margin-right: 0.5rem; 
+    }
+    .skillBarText>h2{
+        font-size: 5vw;
+    }
 }
 

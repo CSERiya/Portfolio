@@ -9,7 +9,7 @@ const Skills = () => {
   <section id='skills'>
 <span className='skillTitle'> What I Do?</span>
 <span className="skillDesc">I am a skilled and passionate website developer with experience in HTML, CSS, JS, React.js. Working on 
-Backend part (MongoDB, Node.js, express.Js). Want to work more on Mern full stack development.</span>
+Backend part (MongoDB, Node.js, express.Js). Want to work more on Mern full stack development. And I simply enjoy coding and problem-solving.</span>
 <div className="skillBars">
 <div className="skillBar">
     <img src={webdev_img} alt='webdev' className='skillBarImg'/>
