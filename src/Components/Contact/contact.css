@@ -3,7 +3,7 @@
    min-height: calc(100vh - 5rem);
    width: 100vw;
    max-width: 60rem;
-   /* display: flex; */
+   display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
@@ -14,6 +14,7 @@
 .contactPageTitle{
     margin: 1rem 0;
     font-size: 3rem;
+    padding-top: 4rem;
 }
 .ResumeDesc{
     margin: 1rem auto;
@@ -22,7 +23,7 @@
     font-size: 1rem;
 }
 .resume-link{
-    color: aqua;
+    color: yellow;
     cursor: pointer;
 }
 .resume-link:hover{
@@ -34,6 +35,7 @@
     display: block;
     text-align: center;
     margin: auto;
+    border: 4px solid yellow;
 }
 @media (max-width: 425px) {
     #Resume {
@@ -45,3 +47,21 @@
         font-size: 0.8rem;
     }
   }
+ .contactDesc{
+    padding-bottom: 1rem;
+ }
+  .idimg{
+    height: 60px;
+    width: 60px;
+    margin: 1rem;
+  }
+  .idimg:hover{
+  transform: scale(1.2);
+  }
+  @media (max-width: 425px) {
+    .idimg {
+     height: 40px;
+     width: 40px;
+     margin: 0.5rem;
+    }
+}

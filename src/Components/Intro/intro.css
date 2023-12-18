@@ -54,7 +54,7 @@ font-size: 1rem;
     height: 1.1rem;
 }
 
-@media screen and (max-width:840px) {
+@media (max-width:840px) {
     .My_img{
         right: -10vw;
         height: 100vh;
@@ -66,8 +66,9 @@ font-size: 1rem;
 font-size: 4.5vw;
     }
 }
-@media screen and (max-width:480px) {
+@media (max-width:425px) {
     .My_img{
         right: -20vw;
     }
 }
+
