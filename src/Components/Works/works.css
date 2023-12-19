@@ -29,9 +29,10 @@ font-size: 3rem;
     width: 100vw;
 } 
 .workImgs{
+    /* object-fit: cover; */
     height:20rem;width: 23rem;
     margin: 1rem;
-    border: 4px solid yellow;
+    border: 1px solid yellow;
 }
 .workBtn{
     margin: 2rem 0;
@@ -54,4 +55,9 @@ font-weight: bolder;
     .btn1{
         padding-top: 55rem;
     }
+}
+@media(max-width:425px){
+    .workImgs{
+        height:20rem;
+    width: 20rem;    }
 }
