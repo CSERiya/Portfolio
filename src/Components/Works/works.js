@@ -1,11 +1,8 @@
 import React from 'react'
 import './works.css'
-import img1 from '../../assets/textutils-1.png'
-import img2 from '../../assets/Newshub-1.png'
-import img3 from '../../assets/Emart-1.png'
-// import img4 from '../../assets/portfolio-4.png'
-// import img5 from '../../assets/portfolio-5.png'
-// import img6 from '../../assets/portfolio-6.png'
+import img1 from '../../assets/Textutils.png'
+import img2 from '../../assets/Newshub.png'
+import img3 from '../../assets/Emart.png'
 
 const works = () => {
   return (
@@ -19,9 +16,6 @@ environment.</span>
         <img src={img1} className='workImgs' alt=''/>
       <img src={img2} className='workImgs' alt=''/>
       <img src={img3} className='workImgs' alt=''/>
-      {/* <img src={img4} className='workImgs' alt=''/>
-      <img src={img5} className='workImgs' alt=''/>
-      <img src={img6} className='workImgs' alt=''/> */}
       </div>
       <div className='btn1'>
       <a href='https://github.com/CSERiya?tab=repositories' target='_blank'><button className='workBtn'>See More</button></a>

@@ -2,7 +2,6 @@
     background: rgb(30,30,30);
     height: 5rem;
     width: 100vw;
-    /* max-width: 85rem; */
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
@@ -22,7 +21,7 @@
     cursor: pointer;
 }
 .desktopMenuListItem:hover{
-    color: yellow;
+    color: yellow ;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid yellow;
 }
@@ -44,11 +43,11 @@
 width: 1rem;
 margin: 1rem;
 }
-.desktopMenuListItem.active {
+/* .desktopMenuListItem.active {
     color: yellow;
     padding-bottom: 0.5rem;
     border-bottom:3px solid yellow;
-}
+} */
 .mobMenu{
     display: none;
     object-fit: cover;

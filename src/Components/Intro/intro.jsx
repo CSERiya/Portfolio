@@ -16,7 +16,6 @@ const intro = () => {
         </div>
         <img src={My_img} alt='Profile' className='My_img'/>
      </div>
-     
   );
 }
 
