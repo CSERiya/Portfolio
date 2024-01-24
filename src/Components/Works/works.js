@@ -16,6 +16,7 @@ environment.</span>
         <img src={img1} className='workImgs' alt=''/>
       <img src={img2} className='workImgs' alt=''/>
       <img src={img3} className='workImgs' alt=''/>
+    
       </div>
       <div className='btn1'>
       <a href='https://github.com/CSERiya?tab=repositories' target='_blank'><button className='workBtn'>See More</button></a>
