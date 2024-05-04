@@ -15,7 +15,7 @@ const contact = () => {
 crafting innovative web solutions. With over six months of hands-on experience, my expertise spans the intricacies of 
 modern web development. Dive into a showcase of projects, skills, and achievements that reflect my commitment to 
 excellence and readiness for new challenges."</p>
-<a href="https://drive.google.com/file/d/1YoA2xydQMnf5bie0q78_OKv5k0WDhOsm/view?usp=sharing" target='_blank' className="resume-link">Click to View My Resume</a> 
+<a href="https://drive.google.com/file/d/17JHSxF1j-StURxjgTgcn9hqKtw-H6fVB/view?usp=sharing" target='_blank' className="resume-link">Click to View My Resume</a> 
     <br/>
      <br/>
      <img src={resume_img} className='resumeimg' alt=''/>
